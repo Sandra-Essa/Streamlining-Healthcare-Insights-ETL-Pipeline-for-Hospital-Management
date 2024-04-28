@@ -43,6 +43,7 @@
 
 ![Demo Sample](https://github.com/Sandra-Essa/Streamlining-Healthcare-Insights-ETL-Pipeline-for-Hospital-Management_/blob/main/Media/ERD.png)
 
+
 ### Mapping Schema
 
 ![Demo Sample](https://github.com/Sandra-Essa/Streamlining-Healthcare-Insights-ETL-Pipeline-for-Hospital-Management_/blob/main/Media/Mapping.png)
@@ -62,13 +63,17 @@
 7) Meta Table for Data Transfer Tracking:
 - Established a meta table within the data warehouse infrastructure, serving as a centralized repository to track and monitor the timestamp of the last data transfer from operational databases to the data warehouse. This meta table facilitates streamlined management and monitoring of data integration processes.
 
+
 ### Snowflake Schema
 
 ![Demo Sample](https://github.com/Sandra-Essa/Streamlining-Healthcare-Insights-ETL-Pipeline-for-Hospital-Management_/blob/main/Media/Snowflake%20schema.png)
 
+
 ### SSIS DWH
 
 ![Demo Sample](https://github.com/Sandra-Essa/Streamlining-Healthcare-Insights-ETL-Pipeline-for-Hospital-Management_/blob/main/Media/OLAP_Hospital%20_Management_system.gif)
+
+
 
 ## Tools
 
