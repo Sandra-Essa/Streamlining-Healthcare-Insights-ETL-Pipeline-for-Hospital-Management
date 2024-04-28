@@ -6,18 +6,24 @@
     - [Mapping Schema](#Mapping-Schema)
 - [Data Warehouse](#Data-Warehouse)
     - [Snowflake Schema](#Snowflake-Schema)
-    - [DWH Implementation](#DWH-Implementation)
+    - [SSIS DWH](#SSIS-DWH)
 - [Tools](#Tools)
 
 
 ## Description
 
 - Project Overview:
-This project focuses on designing and implementing a robust Hospital Management System integrated with a sophisticated Data Warehouse. The system comprises modules for nurses, pharmacy, and doctors, centered around the common factor of patient care. It started by creating an Entity-Relationship Diagram (ERD) and mapping schema, ensuring data normalization and efficient organization. Physical tables were built with constraints followed by generating random data using Python scripts for testing purposes.
+  This project focuses on designing and implementing a robust Hospital Management System integrated with a sophisticated Data Warehouse. The 
+  system comprises modules for nurses, pharmacy, and doctors, centered around the common factor of patient care. It started by creating an 
+  Entity-Relationship Diagram (ERD) and mapping schema, ensuring data normalization and efficient organization. Physical tables were built 
+  with constraints followed by generating random data using Python scripts for testing purposes.
 
-Moving forward, It transitioned to data warehousing, constructing a snowflake schema for analytical insights. Using SQL Server Integration Services (SSIS), It orchestrated the Extract, Transform, Load (ETL) process, ensuring data accuracy and integrity. Additionally, we implemented slowly changing dimensions (SCD) to track source data changes. A meta table was also created to monitor data transfer activities.
+  Moving forward, It transitioned to data warehousing, constructing a snowflake schema for analytical insights. Using SQL Server Integration 
+  Services (SSIS), It orchestrated the Extract, Transform, Load (ETL) process, ensuring data accuracy and integrity. Additionally, we 
+  implemented slowly changing dimensions (SCD) to track source data changes. A meta table was also created to monitor data transfer activities.
 
-This project showcases our comprehensive approach to healthcare data management, blending database design principles with advanced data warehousing techniques to support efficient hospital operations and informed decision-making.
+  This project showcases our comprehensive approach to healthcare data management, blending database design principles with advanced data 
+  warehousing techniques to support efficient hospital operations and informed decision-making.
 
 
 
@@ -34,9 +40,11 @@ This project showcases our comprehensive approach to healthcare data management,
 
 
 ### ERD
+
 ![Demo Sample](https://github.com/Sandra-Essa/Streamlining-Healthcare-Insights-ETL-Pipeline-for-Hospital-Management_/blob/main/Media/ERD.png)
 
 ### Mapping Schema
+
 ![Demo Sample](https://github.com/Sandra-Essa/Streamlining-Healthcare-Insights-ETL-Pipeline-for-Hospital-Management_/blob/main/Media/Mapping.png)
 
 
@@ -55,9 +63,11 @@ This project showcases our comprehensive approach to healthcare data management,
 - Established a meta table within the data warehouse infrastructure, serving as a centralized repository to track and monitor the timestamp of the last data transfer from operational databases to the data warehouse. This meta table facilitates streamlined management and monitoring of data integration processes.
 
 ### Snowflake Schema
+
 ![Demo Sample](https://github.com/Sandra-Essa/Streamlining-Healthcare-Insights-ETL-Pipeline-for-Hospital-Management_/blob/main/Media/Snowflake%20schema.png)
 
 ### SSIS DWH
+
 ![Demo Sample](https://github.com/Sandra-Essa/Streamlining-Healthcare-Insights-ETL-Pipeline-for-Hospital-Management_/blob/main/Media/OLAP_Hospital%20_Management_system.gif)
 
 ## Tools
