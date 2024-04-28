@@ -1,0 +1,2 @@
+# Streamlining-Healthcare-Insights-ETL-Pipeline-for-Hospital-Management
+Efficiently integrate, transform, and load hospital data with our ETL pipeline, optimizing management insights. Seamlessly bridge operational databases to a comprehensive data warehouse for informed decision-making in healthcare. Harness the power of data integration for streamlined hospital management and improved patient care.
