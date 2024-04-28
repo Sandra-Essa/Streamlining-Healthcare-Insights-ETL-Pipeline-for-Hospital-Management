@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="OLAP_Destination"
+  DTS:DTSID="{0A63A2C2-0207-418A-BFDA-A6123EBB0054}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=.;Initial Catalog=OLAP_Hospital_Management_System;Provider=SQLNCLIRDA11.1;Integrated Security=SSPI;Application Name=SSIS-OLAP_Hospital_Management_System-{0A63A2C2-0207-418A-BFDA-A6123EBB0054}LocalHost.OLAP_Hospital_Management_System;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

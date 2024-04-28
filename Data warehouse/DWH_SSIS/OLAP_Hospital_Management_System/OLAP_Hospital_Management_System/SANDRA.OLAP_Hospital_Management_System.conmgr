@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="SANDRA.OLAP_Hospital_Management_System"
+  DTS:DTSID="{13B19A8C-8AFA-4BB0-96D3-01FF3D1F775C}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=SANDRA;Initial Catalog=OLAP_Hospital_Management_System;Provider=SQLNCLIRDA11.1;Integrated Security=SSPI;Application Name=SSIS-OLAP_Hospital_Management_System-{13B19A8C-8AFA-4BB0-96D3-01FF3D1F775C}SANDRA.OLAP_Hospital_Management_System;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
