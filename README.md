@@ -1,4 +1,4 @@
-# Streamlining-Healthcare-Insights-ETL-Pipeline-for-Hospital-Management
+# Streamlining-Healthcare-Insights-ETL-Pipeline-for-Hospital-Management-System
 
 - [Description](#description)
 - [DataBase Design](#DataBase-Design)
